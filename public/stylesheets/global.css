@@ -1,0 +1,107 @@
+body, html {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "IBM-Sans";
+  color: #000;
+}
+
+.header {
+  background-color: #785589;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+  box-shadow: 0px 1px 5px 2px #785589;
+}
+
+.title {
+  color: #fff;
+  font-size: calc(34pt + 1.5vw);
+}
+
+.uploadedImages {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 5vw;
+}
+
+.uploadedImage {
+  height: auto;
+  max-width: 300px;
+}
+
+.imageHolder {
+  text-align: center;
+}
+
+.imageSection {
+  padding: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  max-width: 300px;
+  background-color: #a98ca4;
+  border-radius: 15px;
+  box-shadow: 0px 1px 10px 0px #a98ca4;
+}
+
+.imageLabels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageLabel {
+  padding: 3px;
+  margin: 3px;
+  background: #cda9a9;
+  color: #000;
+  font-size: 12pt;
+  border-radius: 6px;
+}
+
+.uploadSection {
+  padding-left: 5vw;
+}
+
+.uploadForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.selectImage {
+  width: 500px;
+  font-size: 12pt;
+  margin-bottom: 10px;
+}
+
+.uploadImage {
+  font-size: 12pt;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  background: #c29fa0;
+  box-shadow: none;
+  border: 1px solid;
+  border-color: #c29fa0;
+  padding: 10px 20px 10px 20px;
+}
+
+.uploadImage:hover {
+  background: #ffffff;
+  color: #cda9a9;
+  border: 1px solid;
+}
+
+.uploadImage:active {
+  background: #cda9a9;
+  color: #fff;
+  border: 1px solid;
+  border-color: #c29fa0;
+}
